@@ -62,3 +62,29 @@ Tâches à réaliser (non définitives):
    - Créer une fonction json_encode qui transformera l'array en json
    - Renvoyer le json vers la vue principale qui la décodera dans le js de l'api google
  
+ 
+ -------------------------
+ Format du retour sur le cours :
+
+Graph1:
+[10,1170],
+[11,1830],
+[12,3095],
+[13,4620],
+[14,6540],
+[15,8394],
+[16,9753],
+[17,10119],
+[18,8400],
+[19,1982],
+[20,3498],
+
+Graph2: 
+[2, 100],// 3
+[3,100],// 4
+[4,99.997],// 5
+[5,99.988],// 6
+[6,99.965],// 7
+[7,99.911],// 8
+[8,99.754],// 9
+[9,99.441],// 10
