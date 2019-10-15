@@ -2,54 +2,83 @@
 
 // Definition des fonctions
 
-class Dice {
+class Dice
+{
     public $face;
     public $nbjets;
     public $seuilrel;
     public $kept;
 
     // Le constructeur prendra en compte les valeurs n m k via une méthode POST
-    function __construct($n, $m, $k){
+    function __construct( $n, $m, $k )
+    {
         $this->nbjets = $n;
         $this->seuilrel = $m;
-        $this->kept = $k;    }
+        $this->kept = $k;
+    }
 
     // Getters and Setters
-  //  function setDice($n, $m, $k){
-        //$this->nbjets = $n;
-        //$this->seuilrel = $m;
-        //$this->kept = $k;
-   // }
-
-    function getJets(){
+    function getJets()
+    {
         return $this->nbjets;
     }
-    function getRel(){
+
+    function getRel()
+    {
         return $this->seuilrel;
     }
-    function getKept(){
+
+    function getKept()
+    {
         return $this->kept;
     }
 
     // Méthode du jet de dés
-    function playDice(){
+    function playDice()
+    {
         $n = $this->nbjets;
         $m = $this->seuilrel;
-        $i = 0;
-        echo $i."<br>".$n."<br>".$m."<br>";
-        for ($i; $i <= $n; $i++){
-            $f = rand(1,10);
-            if ($f >= $m){
-                $f += rand(1,10);
+        $k = $this->kept;
+        $i = 1;
+        $brutvalue = 0;
+        $montant = array();
+        //debug
+        echo 'Valeur i='.$i . "<br>" . 'Valeur Jets='.$n . "<br>" . 'Valeur Relance='.$m . "<br>". 'Valeur Conserve='.$k . "<br><br>";
+        for ( $i; $i <= $n; $i++ ) {
+            $f = rand ( 1, 10 );
+            // Debug
+            echo 'valeur sf base: '.$f.' - ';
+            $val += $f;
+            while ( $f >= $m ) {
+                $f = 0;
+                $f = rand ( 1, 10 );
+                //debug
+                echo '/'.$f.'/';
+                $val += $f;
             }
-            echo $i." <-Index . Value -> ".$f.'<br>';
+            array_push ( $montant, $val );
+            //debug
+            echo "/  Index :". $i . "// Value -> " . $val . '<br>';
+            $val = 0;
         }
+        rsort ( $montant );
+        echo '<br>';
+        //debug
+        print_r ($montant);
+        echo '<br>';
+        echo '<br>';
+        for ($x=0;$x < $k;$x++) {
+            $brutvalue += $montant[$x];
+        }
+        //debug
+        echo 'Valeur ktotale : '.$brutvalue;
     }
+
 }
 
 // Tester un lancé
 
-$jet1 = new Dice(10,5,2);
-echo $jet1->playDice();
+$jet1 = new Dice( 10, 5, 3 );
+echo $jet1->playDice ();
 
 ?>
