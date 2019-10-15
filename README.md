@@ -15,8 +15,8 @@ Structure repo:
 - diceviews.php : View web
 - template.php : template html
 ---------------------
-Outcome /graph: https://teva.re/diceview
-Outcome /sans graph: https://teva.re/dicetm/diceapp
+- Outcome /graph: https://teva.re/diceview
+- Outcome /sans graph: https://teva.re/dicetm/diceapp
 ---------------------------------------------------------------------------------------------------------
 
 Tâches à réaliser (non définitives):
