@@ -10,6 +10,11 @@ Ressources:
 - Mise en page html
 - CSS Facultatif
 ---------------------
+Structure repo:
+- diceapp.php : Code php
+- diceviews.php : View web
+- template.php : template html
+---------------------
 Outcome : https://teva.re/diceview
 ---------------------------------------------------------------------------------------------------------
 
