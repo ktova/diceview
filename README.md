@@ -61,6 +61,7 @@ Tâches à réaliser (non définitives):
               }
    - Créer une fonction json_encode qui transformera l'array en json
    - Renvoyer le json vers la vue principale qui la décodera dans le js de l'api google
+   - https://www.php.net/manual/en/function.range.php
  
  
 -------------------------
