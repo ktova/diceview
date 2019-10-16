@@ -86,8 +86,9 @@ foreach ($tojson as $kle => $kval){
         array_push ($cleanjson1,$sval);
     }
 }
-echo 'Données stastiques des prévisions approximatives pour les occurences de n jusqua n+x :<br><br>';
-print_r (json_encode ($cleanjson1, JSON_FORCE_OBJECT, JSON_PRETTY_PRINT));
+//echo 'Données stastiques des prévisions approximatives pour les occurences de n jusqua n+x :<br><br>';
+//print_r ($cleanjson1);
+//print_r (json_encode ($cleanjson1, JSON_FORCE_OBJECT, JSON_PRETTY_PRINT));
 
 //$cleanjson1 = array_values ($compteur);
 //$graph1json = json_encode ($compteur,JSON_FORCE_OBJECT);
@@ -129,8 +130,9 @@ foreach ($nprob as $thenum => $theperc){
     array_push ($cleanjson2,'['.$thenum.','.$theperc.']');
 }
 json_encode ($cleanjson2, JSON_FORCE_OBJECT, JSON_PRETTY_PRINT);
-echo '<br><br>Données stastiques des prévisions approximatives pour les probabilités que r soit > n :<br><br>';
-print_r (json_encode ($cleanjson2, JSON_FORCE_OBJECT, JSON_PRETTY_PRINT));
+//echo '<br><br>Données stastiques des prévisions approximatives pour les probabilités que r soit > n :<br><br>';
+//print_r ($cleanjson2);
+//print_r (json_encode ($cleanjson2, JSON_FORCE_OBJECT, JSON_PRETTY_PRINT));
 
 //--------------------------------------------------
 
