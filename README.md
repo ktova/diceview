@@ -63,7 +63,23 @@ Tâches à réaliser (non définitives):
    - Renvoyer le json vers la vue principale qui la décodera dans le js de l'api google
    - https://www.php.net/manual/en/function.range.php
  
- 
+   - Fonction val>n:
+      - Variable des jets globaux : 10 000 ou 100 000
+      - Var n pour nombre
+      - Var qte> = totaux supérieurs aux nombres n+1
+      - On cherche a savoir le pourcentage de ((n+1 > n)/10000[0])x100 à 0.001 près
+      - Fonction d'ébauche :
+      - var nbtotal = 0;
+      - For(i = 0; i< $keymax; i++){
+        - Foreach($arr as $key => $value){
+        if (n<$key) {
+        pass
+          }
+        else {
+        $nbtotal += $value;
+          }
+         }
+        }
 -------------------------
 Valeurs de la courbe:
 --------
