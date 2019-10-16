@@ -81,6 +81,14 @@ Tâches à réaliser (non définitives):
           }
          }
         }
+        
+     - Aide utile au parsing json car jsp
+     - https://developers.google.com/chart/interactive/docs/php_example
+     - https://www.dyn-web.com/tutorials/php-js/json/array.php
+     - https://www.dyn-web.com/tutorials/php-js/json/multidim-arrays.php
+     - https://www.w3schools.com/js/js_json_php.asp https://www.w3schools.com/js/tryit.asp?filename=tryjson_parse
+     - https://www.w3schools.com/js/js_json_parse.asp
+     - Chercher un tuto google charts x json
 -------------------------
 Valeurs de la courbe:
 --------
