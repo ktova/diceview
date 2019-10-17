@@ -96,11 +96,8 @@ if ($_POST[ 'nbDices' ]) {
                 array_push($cleanjson2,'[' . $thenum . ',' . $theperc . ']');
             }
             json_encode($cleanjson2,JSON_FORCE_OBJECT,JSON_PRETTY_PRINT);
-        } else {
         }
-    } else {
     }
-} else {
 }
 
 ?>
