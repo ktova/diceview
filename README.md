@@ -1,13 +1,13 @@
 Utilisation de Google Charts avec de la Back-End PHP pour display des probabilités au lancer de dés Keep&Roll
 ---------------------
 Source : https://richie.u-strasbg.fr/~virgile/sf4/public/index.php/cours/poo/dices
+
 Notes : Virgile sale clébard on va t'attraper et te faire tourner comme la toupie beyblade que t'es fils de pute 
 ---------------------
 Ressources:
 - PHP (POO) : https://www.php.net/manual/en/language.oop5.php
 - Google Charts : https://developers.google.com/chart/
-- Jquery AJAX : https://api.jquery.com/jquery.ajax/
-- Javascript minime
+- Jquery AJAX : https://api.jquery.com/jquery.ajax/ (Optionnel)
 - Mise en page html
 - CSS Facultatif
 ---------------------
@@ -31,7 +31,7 @@ Tâches à réaliser (non définitives):
 - Javascript :
    - Inclure les scripts des graphiques après les divs results
    - Permettre au nom du graphique de changer en fonction de la fonction
-   - Rajouter un AJAX call avant l'appel de la fonction tableau (Jquery AJAX)
+   - Rajouter un AJAX call avant l'appel de la fonction tableau (Jquery AJAX) (Optionnel)
    
 - PHP/HTML:
    - Form avec méthode post qui enverra en back-end les valeurs du nombre de jets, seuil de relance et valeurs conservées
@@ -81,13 +81,13 @@ Tâches à réaliser (non définitives):
          }
         }
         
-     - Aide utile au parsing json car jsp
-     - https://developers.google.com/chart/interactive/docs/php_example
-     - https://www.dyn-web.com/tutorials/php-js/json/array.php
-     - https://www.dyn-web.com/tutorials/php-js/json/multidim-arrays.php
-     - https://www.w3schools.com/js/js_json_php.asp https://www.w3schools.com/js/tryit.asp?filename=tryjson_parse
-     - https://www.w3schools.com/js/js_json_parse.asp
-     - Chercher un tuto google charts x json
+     - Aide utile au parsing json car jsp (Optionnel)
+     - https://developers.google.com/chart/interactive/docs/php_example (Optionnel)
+     - https://www.dyn-web.com/tutorials/php-js/json/array.php (Optionnel)
+     - https://www.dyn-web.com/tutorials/php-js/json/multidim-arrays.php (Optionnel)
+     - https://www.w3schools.com/js/js_json_php.asp https://www.w3schools.com/js/tryit.asp?filename=tryjson_parse (Optionnel)
+     - https://www.w3schools.com/js/js_json_parse.asp (Optionnel)
+     - Chercher un tuto google charts x json (Optionnel)
 -------------------------
 Valeurs de la courbe:
 --------
