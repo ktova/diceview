@@ -1,8 +1,6 @@
 Utilisation de Google Charts avec de la Back-End PHP pour display des probabilités au lancer de dés Keep&Roll
 ---------------------
 Source : https://richie.u-strasbg.fr/~virgile/sf4/public/index.php/cours/poo/dices
-
-Notes : Virgile sale clébard on va t'attraper et te faire tourner comme la toupie beyblade que t'es fils de pute 
 ---------------------
 Ressources:
 - PHP (POO) : https://www.php.net/manual/en/language.oop5.php
